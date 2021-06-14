@@ -23,12 +23,12 @@ header{
 
 .search{
     background-color: transparent;
-
     padding:0.5rem 1rem;
     border-radius: 50px;
     font-size: 1rem;
     color:#fff;
     font-family: inherit;
+    
 }
 
 .search:focus{
@@ -296,7 +296,6 @@ header{
 .footer{
   
     background-size: cover;
-    color: black;
     padding: 30px;
     background:rgb(247, 220, 220);}
 
@@ -379,3 +378,163 @@ h1{
 .movie-info h2{
     font-size: larger;
 }
+.logo{ max-width: 100px;
+    top: 0px; display: flex;
+    right: 1100px; position:relative;
+    width: 100%;
+    padding: 0%;
+}
+
+    .footer{ background: lightgrey; padding: 20px; min-height: 220px; margin-bottom: 20px;
+    }
+    
+    .footer img{ width: 10%; 
+    float: right;
+margin-bottom: 100%;}
+.imagem{
+    width: 300px;
+    height: 450px;
+}
+.pe{
+    padding: 0%;
+    background-color: grey !important;
+}
+.img2{
+    background-color: grey !important;
+    width: 10%; 
+    display: inline;
+    margin-left: 25%;
+
+}
+.img3{
+    background-color: transparent !important;
+    width: 10%; 
+    display: inline;
+margin-left: 25%;
+margin-top: 0%;
+    
+
+}
+.pe2{
+
+    background-color: transparent !important;
+}
+.paginas{
+    color:red;
+}
+
+.index_btn{
+    white-space: normal !important;
+}
+.ultimo_btn{
+    white-space: normal !important;
+}
+.cinema_btn{
+    white-space: normal !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  a {
+    color:  white;
+    background-color: transparent;
+ 
+    
+
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  h1 {
+    color : #fff;
+  }
+  
+  .nav {
+   
+    min-height: 60px;
+    padding: 10px;
+  }
+  
+  .logo {
+    flex-grow: 1;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  label {
+    color: white;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+    position: absolute;
+    right: 10px;
+    display: none;
+  }
+  
+  /*flex box*/
+  .menu ul {
+    display: flex;
+  }
+  
+  .menu ul li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  @media (max-width : 739px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+      max-width: 420px;
+    }
+  
+    label {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .menu {
+      width: 100%;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+      display: none;
+      text-align: center;
+    }
+  
+    .menu ul li {
+      margin: 10px 0;
+      line-height: 20px;
+    }
+  
+    /*mandiga css*/
+    #toggle:checked+.menu ul {
+      display: block;
+    }
+  }
+ .imgg{
+    position: absolute;
+    left: 0px;
+ }
